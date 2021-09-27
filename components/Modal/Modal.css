@@ -1,0 +1,23 @@
+.custom-modal-block .modal {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .custom-modal-block .d-block {
+    transition: -webkit-transform .3s ease-out;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .custom-modal-block .modal-container {
+    position: absolute;
+    background: #ffffff;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .custom-modal-block .modal-footer {
+    justify-content: center;
+  }
